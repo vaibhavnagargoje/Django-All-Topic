@@ -13,7 +13,7 @@ def registor(request):
             form.save()
             username=form.cleaned_data.get('username')
             messages.success(request,f'Welcome {username}! Acount Created..')
-            return redirect('food:index')
+            return redirect('login')
         
     else:
 

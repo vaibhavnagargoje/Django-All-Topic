@@ -16,6 +16,12 @@ def index(request):
     return render(request,'food/index.html',context)
 
   
+
+
+
+
+
+  
 def item(request):
       
     return HttpResponse('this is item view')

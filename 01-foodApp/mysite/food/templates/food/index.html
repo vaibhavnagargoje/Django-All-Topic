@@ -27,7 +27,7 @@
             <h2>{{item.item_name}}</h2>
             <h4>{{item.item_desc}}</h4>
             <h5>$ {{item.item_prise}}</h5>
-
+            <h5>{{item.user_name}}</h5>
         </div>
         <div class="col-md-2">
             <a href="{% url 'food:detail' item.id %}" class="btn btn-primary"> Detail </a>
